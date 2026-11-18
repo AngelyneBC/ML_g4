@@ -1,0 +1,28 @@
+dataset,escenario,modelo,version,cv_f1_macro,test_acc,test_f1_macro,seg_entrenamiento
+Dropout,todas las variables,rf,referencia (autores),,0.7638418079096045,0.7120574511751924,1.2
+Dropout,todas las variables,logreg,propuesto base,,0.7209039548022599,0.6839430146070765,0.2
+Dropout,todas las variables,logreg,propuesto afinado,0.7165175107777632,0.7333333333333333,0.6970800366601332,0.1
+Dropout,todas las variables,knn,propuesto base,,0.7028248587570621,0.6196334354202058,0.1
+Dropout,todas las variables,knn,propuesto afinado,0.6596456294509966,0.7175141242937854,0.6354017108091884,0.1
+Dropout,todas las variables,svm,propuesto base,,0.7322033898305085,0.6935666922246996,0.9
+Dropout,todas las variables,svm,propuesto afinado,0.7213642496928211,0.7344632768361582,0.6959500156281081,0.9
+Dropout,todas las variables,mlp,propuesto base,,0.7615819209039548,0.6893609662306153,0.7
+Dropout,todas las variables,mlp,propuesto afinado,0.7193346702988569,0.7548022598870057,0.6858111232046347,0.3
+Obesity,con Height y Weight,rf,referencia (autores),,0.9401913875598086,0.9388392398522675,0.8
+Obesity,con Height y Weight,logreg,propuesto base,,0.8971291866028708,0.8927601155481121,0.1
+Obesity,con Height y Weight,logreg,propuesto afinado,0.9602946798543891,0.9736842105263158,0.9730706257494729,0.1
+Obesity,con Height y Weight,knn,propuesto base,,0.8277511961722488,0.8061577507717173,0.0
+Obesity,con Height y Weight,knn,propuesto afinado,0.855537118524726,0.8875598086124402,0.8825770561801972,0.0
+Obesity,con Height y Weight,extratrees,propuesto base,,0.9114832535885168,0.9095606380169535,0.4
+Obesity,con Height y Weight,extratrees,propuesto afinado,0.8999511771236292,0.916267942583732,0.9142180667243479,0.3
+Obesity,con Height y Weight,hgb,propuesto base,,0.9760765550239234,0.9756162074889387,1.2
+Obesity,con Height y Weight,hgb,propuesto afinado,0.9651310343676748,0.9736842105263158,0.9728123837179466,0.6
+Obesity,sin Height ni Weight,rf,referencia (autores),,0.8397129186602871,0.8357295745323798,0.8
+Obesity,sin Height ni Weight,logreg,propuesto base,,0.6267942583732058,0.5865670354490756,0.1
+Obesity,sin Height ni Weight,logreg,propuesto afinado,0.5724787525914254,0.6363636363636364,0.5963957381393101,0.2
+Obesity,sin Height ni Weight,knn,propuesto base,,0.7511961722488039,0.724325072661622,0.0
+Obesity,sin Height ni Weight,knn,propuesto afinado,0.7805882071736013,0.80622009569378,0.7986396980874081,0.0
+Obesity,sin Height ni Weight,extratrees,propuesto base,,0.8444976076555024,0.8399318100030992,0.4
+Obesity,sin Height ni Weight,extratrees,propuesto afinado,0.8054688057320846,0.8301435406698564,0.8247900627349329,0.2
+Obesity,sin Height ni Weight,hgb,propuesto base,,0.84688995215311,0.8437728168573686,1.4
+Obesity,sin Height ni Weight,hgb,propuesto afinado,0.8208429376661792,0.8373205741626795,0.8325345224998879,1.7
